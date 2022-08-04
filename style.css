@@ -113,7 +113,6 @@ img{
     height: 100%;
     overflow: hidden;
 }
-.text{
-    display: flex;
-    flex-direction: column;
+.purchase{
+    width: 270px;
 }
