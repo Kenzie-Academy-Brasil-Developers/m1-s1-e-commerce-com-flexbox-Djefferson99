@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(206, 202, 202);
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px; 
+    display: flex;
+    align-items: center;
+    
+}
+.menu{
+    background-color: #ffff;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-1{
+    display: flex;
+    gap: 50px;
+}
+.menu ul{
+    display: flex;
+    list-style:none;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: flex-start;
+}   
+.menu ul li a{
+    text-decoration:none;
+    color:#585e65;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+.button{
+    text-decoration: none;
+    height: 48px;
+    background-color: #4c6ef5;
+    color: #fff;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ header{
+    display:flex;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    justify-content: space-between;
+}
+.shop{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 40px;
+}
+.product{
+    display: flex;
+    gap: 16px;
+    padding: 12px;
+    background-color: #fff;
+    width: 24%;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+}
+.offer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+}
+.offer h2{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:24px;
+}
+.offer a{
+    text-decoration: none;
+    height: 48px;
+    background-color: #4c6ef5;
+    color: #fff;
+    padding: 0 32px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    height:207px;
+    overflow: hidden;
+}
+img{
+    height: 100%;
+    overflow: hidden;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
